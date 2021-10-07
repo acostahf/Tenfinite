@@ -8,9 +8,20 @@ const SecOne = () => {
       <div className="grid grid-cols-3">
         <div className="">
           <Card />
+          <Card />
+          <Card />
         </div>
-        {/* <div className="pt-10"></div>
-        <div></div> */}
+        <div className="pt-10">
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+        </div>
+        <div>
+          <Card />
+          <Card />
+          <Card />
+        </div>
       </div>
     </div>
   )
