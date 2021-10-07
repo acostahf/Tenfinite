@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="hero">
         <div className="gridBlock">
           <h1 className="title">The mutual funds of Charity</h1>
-          <p className="content">
+          <p className="heroContent">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultricies
             quis lacus vitae sit cras blandit semper. Pulvinar nisi sit
             molestie.

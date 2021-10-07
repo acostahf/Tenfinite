@@ -4,7 +4,7 @@ import React from "react"
 const SecFour = () => {
   return (
     <div>
-      <div className="card">
+      <div className="card bg-nmr-blue">
         <div className="sec">
           <h1 className="cardTitle">About Us</h1>
           <h2 className="subTitle">“The mutual funds of charities” </h2>
@@ -50,7 +50,7 @@ const SecFour = () => {
           </p>
         </div>
       </div>
-      <div className="card">
+      <div className="card bg-nmr-blue">
         <div className="sec">
           <h1 className="cardTitle">The campus</h1>
           <h2 className="subTitle">“The mutual funds of charities” </h2>

@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 .title {
-  @apply font-extrabold text-5xl text-black pb-10;
+  @apply font-extrabold text-5xl text-white pb-10;
 }
 
 .secOne {
-  @apply h-screen w-full;
+  @apply h-screen w-full bg-heroImg bg-gray-600 bg-opacity-70 bg-blend-overlay;
 }
 
 .hero {
@@ -15,15 +15,18 @@
 }
 
 .cardTitle {
-  @apply font-bold text-blue-900 text-4xl pb-5;
+  @apply font-bold text-nmr-txBlue text-4xl pb-5;
 }
 
 .subTitle {
-  @apply pb-5 font-bold text-xl;
+  @apply pb-5 font-bold text-xl text-nmr-txBlue;
 }
 
 .content {
-  @apply pb-5;
+  @apply pb-5 text-nmr-black;
+}
+.heroContent {
+  @apply pb-5 text-white;
 }
 
 .pic {
@@ -31,7 +34,7 @@
 }
 
 .sec {
-  @apply p-10;
+  @apply flex justify-center  flex-col p-10;
 }
 
 .card {
