@@ -1,4 +1,6 @@
+import { StaticImage } from "gatsby-plugin-image"
 import React from "react"
+import Image from "../components/Image"
 
 const SecFour = () => {
   return (
@@ -14,11 +16,30 @@ const SecFour = () => {
             situations with those fighting issues here in the U.S.
           </p>
         </div>
-        <div className="pic">Image here</div>
+        <div className=" ">
+          <StaticImage
+            src="../images/pic1.png"
+            width={600}
+            quality={95}
+            formats={["auto", "webp", "avif"]}
+            alt="Picture one"
+            style={{ marginBottom: `1.45rem` }}
+          />
+        </div>
       </div>
 
       <div className="card">
-        <div className="pic">Image here</div>
+        <div className="">
+          {" "}
+          <StaticImage
+            src="../images/donate.png"
+            width={600}
+            quality={95}
+            formats={["auto", "webp", "avif"]}
+            alt="Picture one"
+            style={{ marginBottom: `1.45rem` }}
+          />
+        </div>
         <div className="sec">
           <h1 className="cardTitle">How it works?</h1>
           {/* <h2 className="subTitle">“The mutual funds of charities” </h2> */}
@@ -41,7 +62,17 @@ const SecFour = () => {
             programs, and collaboration amongst various efforts.
           </p>
         </div>
-        <div className="pic">Image here</div>
+        <div className="">
+          {" "}
+          <StaticImage
+            src="../images/building.png"
+            width={600}
+            quality={95}
+            formats={["auto", "webp", "avif"]}
+            alt="Picture one"
+            style={{ marginBottom: `1.45rem` }}
+          />
+        </div>
       </div>
     </div>
   )

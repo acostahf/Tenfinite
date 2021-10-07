@@ -13,7 +13,7 @@ const SecThree = () => {
               adipisicing excepteur.
             </p>
           </div>
-          <div className="flex justify-around w-1/2ß ">
+          <div className="flex w-1/2ß ">
             <button className="btn">Donate Now</button>
             <button className="btn">Learn More</button>
           </div>
