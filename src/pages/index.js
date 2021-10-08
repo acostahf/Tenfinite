@@ -6,22 +6,22 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Hero from "../components/hero"
 import SecOne from "../components/secOne"
-import SecTwo from "../components/secTwo"
+// import SecTwo from "../components/secTwo"
 import SecThree from "../components/secThree"
 import SecFour from "../components/secFour"
 import SecFive from "../components/secFive"
-import SecSix from "../components/secSix"
+// import SecSix from "../components/secSix"
 
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
     <Hero />
     <SecOne />
-    <SecTwo />
+    {/* <SecTwo /> */}
     <SecThree />
     <SecFour />
     <SecFive />
-    <SecSix />
+    {/* <SecSix /> */}
   </Layout>
 )
 

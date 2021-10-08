@@ -1,5 +1,7 @@
 import React from "react"
 
+import { StaticImage } from "gatsby-plugin-image"
+
 const SecThree = () => {
   return (
     <div>
@@ -7,16 +9,26 @@ const SecThree = () => {
         <div className="donateBlock">
           <div className="content2">
             <h1 className="title">Make a Difference Today!</h1>
-            <p className="content">
+            <p className="text-white pb-5 pr-20">
               In sint ex nostrud amet ullamco adipisicing adipisicing et duis
-              cillum irure. Quis non ad dolore ex eu id excepteur adipisicing
+              cillum irure.
+              <br /> Quis non ad dolore ex eu id excepteur adipisicing
               adipisicing excepteur.
             </p>
+            <div className="flex gap-4">
+              <button className="btn">Donate Now</button>
+              <button className="btn2">Learn More</button>
+            </div>
           </div>
-          <div className="flex w-1/2ß ">
-            <button className="btn">Donate Now</button>
-            <button className="btn">Learn More</button>
-          </div>
+
+          <StaticImage
+            src="../images/vet.png"
+            //   width={600}
+            quality={95}
+            formats={["auto", "webp", "avif"]}
+            alt="Picture one"
+            // style={{ marginBottom: `1.45rem` }}
+          />
         </div>
       </div>
     </div>
