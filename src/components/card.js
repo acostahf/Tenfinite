@@ -26,7 +26,7 @@ const data = [
 
 export default function card() {
   return (
-    <div className=" flex flex-col w-96 shadow-lg rounded-lg p-10">
+    <div className=" flex flex-col  shadow-lg rounded-lg p-10">
       {/* {data.map(content => ( */}
       <div>
         <div className="flex gap-2">
