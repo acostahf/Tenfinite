@@ -7,7 +7,7 @@
 }
 
 .secOne {
-  @apply h-screen w-full bg-heroImg bg-auto bg-no-repeat bg-nmr-darkBlue bg-opacity-40 bg-blend-overlay;
+  @apply h-screen w-full bg-heroImg bg-cover bg-no-repeat bg-nmr-darkBlue bg-opacity-40 bg-blend-overlay;
 }
 
 .hero {
@@ -61,7 +61,7 @@
 }
 
 .donateBlock {
-  @apply bg-nmr-darkBlue p-20 lg:px-20 flex;
+  @apply bg-nmr-darkBlue p-20 sm:p-0 lg:px-20 flex sm:flex-row flex-col;
 }
 
 .content2 {
