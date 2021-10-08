@@ -7,7 +7,7 @@ const SecFour = () => {
       <div className="card bg-nmr-blue">
         <div className="sec">
           <h1 className="cardTitle">About Us</h1>
-          <h2 className="subTitle">“The representative for charities” </h2>
+          <h2 className="subTitle">“A different kind of charity” </h2>
           <p className="content">
             Tenfinite is an effort to build our community modern campuses that
             integrate existing nonprofit organizations with facilities and
@@ -53,7 +53,7 @@ const SecFour = () => {
       <div className="card bg-nmr-blue">
         <div className="sec">
           <h1 className="cardTitle">The campus</h1>
-          <h2 className="subTitle">“The representative for charities” </h2>
+          <h2 className="subTitle">“A different kind of charity” </h2>
           <p className="content">
             The campus will combine adaptive sports facilities with traditional
             ones alongside offices for existing nonprofits to pursue their
