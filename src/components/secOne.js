@@ -82,8 +82,13 @@ const colThree = [
 
 const SecOne = () => {
   return (
-    <div className=" bg-nmr-blue px-20">
-      <h1>Section 1</h1>
+    <div className=" bg-nmr-blue px-20 py-20">
+      <div className="flex items-center flex-col pb-10">
+        <h4 className="text-xl font-bold text-red-500">What we do</h4>
+        <h1 className="text-4xl font-semibold text-nmr-txBlue">
+          Tenfinite Points
+        </h1>
+      </div>
       <div className="grid grid-cols-1  lg:grid-cols-3 gap-5">
         <div>
           {colOne.map(content => (
