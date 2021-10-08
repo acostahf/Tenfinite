@@ -6,7 +6,9 @@ const SecFive = () => {
       <div>
         <div className="footer">
           <h1 className="footerTitle">Make a Donation Today!</h1>
-          <button className="btn">Donate Now</button>
+          <div>
+            <button className="btn">Donate Now</button>
+          </div>
         </div>
       </div>
     </div>
